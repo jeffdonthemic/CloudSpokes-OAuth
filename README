@@ -1,0 +1,9 @@
+CloudSpokes OAuth Module
+----------------------------------------------------------------------
+
+This application is deployed on heroku @ https://onespotoauthsignin.herokuapp.com/
+
+To use your own consumer key and secret modify /config/initializers/omniauth.rb
+
+Always use the application with https as SalesForce doesn't allow http connections
+and github doesn't recognize applications with same url but different connection types
